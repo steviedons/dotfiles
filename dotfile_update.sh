@@ -55,4 +55,7 @@ else
     powerline-daemon --replace
 fi
 
+# Copy over ssh config file
+echo "Copying ssh config file"
+cp ssh_config ~/.ssh/config
 
