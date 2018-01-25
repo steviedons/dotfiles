@@ -32,7 +32,11 @@ else
 fi
 
 
-export PATH
+export PATH=$PATH:$HOME/.local/bin:$HOME/bin:/usr/local/go/bin:/snap/bin
 export VISUAL=vim
+export GOPATH="/home/steve/go1.9"
+export GOROOT="/usr/local/go/"
+export GOTOOLDIR="/usr/lib/go-1.6/pkg/tool/linux_amd64"
 
-export PATH=/home/steve/anaconda3/bin:/home/steve/bin:/home/steve/bin:/home/steve/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/steve/.vimpkg/bin
+alias python=python3
+
