@@ -14,3 +14,9 @@ function! XTermPasteBegin()
     set paste
     return ""
 endfunction
+execute pathogen#infect()
+call pathogen#helptags()
+
+autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

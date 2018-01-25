@@ -31,7 +31,8 @@ else
      start_agent;
 fi
 
-PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
 export VISUAL=vim
+
+export PATH=/home/steve/anaconda3/bin:/home/steve/bin:/home/steve/bin:/home/steve/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/steve/.vimpkg/bin

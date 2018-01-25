@@ -59,3 +59,6 @@ fi
 
 # added by Anaconda3 4.4.0 installer
 export PATH="/home/steve/anaconda3/bin:$PATH"
+
+
+export PATH=/home/steve/anaconda3/bin:/home/steve/bin:/home/steve/bin:/home/steve/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/steve/.vimpkg/bin
