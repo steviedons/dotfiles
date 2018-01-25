@@ -1,4 +1,2 @@
-~/.ssh/config
-
 Host gitlab-home
 Port 32770
