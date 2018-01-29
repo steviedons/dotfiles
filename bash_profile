@@ -39,4 +39,3 @@ export GOROOT="/usr/local/go/"
 export GOTOOLDIR="/usr/lib/go-1.6/pkg/tool/linux_amd64"
 
 alias python=python3
-
